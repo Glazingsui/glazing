@@ -1,0 +1,134 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.box-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align boxes to the left */
+    margin-top: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin: 10px 0; /* Adjust top and bottom margin */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Targeting the second box */
+.box:nth-child(2) {
+    margin-left: 150px; /* Make the second box further to the right */
+}
+
+/* Adjusting margin for all boxes to make them slightly towards right */
+.box {
+    margin-left: 20px;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.box-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Targeting the second box */
+.box:nth-child(2) {
+    margin-left: 40px;
+}
+
+/* Adjusting margin for all boxes to make them slightly towards right */
+.box {
+    margin-left: 20px;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
